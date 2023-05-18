@@ -27,7 +27,7 @@ const WelcomeCard = () => {
                 title={"Welcome."}
                 titleTypographyProps={{ variant: 'h1', align: 'center', style: { fontSize: '32px', fontWeight: 'bold', color: 'white', fontFamily: 'Arial' } }}
                 subheader={"Glad to have you here!"}
-                subheaderTypographyProps={{ style: { color: 'white', fontFamily: 'Arial' } }}
+                subheaderTypographyProps={{ style: { color: 'white', fontFamily: 'Arial', fontWeight: 'bold' } }}
             />
 
             <CardContent>

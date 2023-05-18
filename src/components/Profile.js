@@ -1,5 +1,5 @@
 import { React, useState } from 'react'
-import { Avatar, Typography } from '@mui/material';
+import { Avatar } from '@mui/material';
 import logo from '../static/images/logo.png';
 import me from '../static/images/me.png';
 
