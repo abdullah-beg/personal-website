@@ -15,7 +15,7 @@ const Profile = () => {
 
                 alt="Abdullah Beg"
                 src={profilePhoto ? logo : me} 
-                sx={{ width: 70, height: 70, boxShadow: 7}}
+                sx={{ width: 100, height: 100, boxShadow: 14}}
             />
 
         </div>

@@ -11,28 +11,28 @@ const WelcomeCard = () => {
 
     return (
         <Card sx={{ 
-                minWidth: 750, 
-                minHeight: 300,
+                minWidth: '62%', 
+                minHeight: '50%',
                 backgroundColor: '#394867',
-                borderRadius: "35px",
+                borderRadius: "75px",
                 boxShadow: 20,
                 }}
         >
             <CardHeader
                 avatar={<Profile />}
                 title={"Muhammad Abdullah Beg"}
-                titleTypographyProps={{ align: "left", color: "white", }}
+                titleTypographyProps={{ align: "left", color: "white", fontSize: '20px' }}
             />
             <CardHeader
                 title={"Welcome."}
-                titleTypographyProps={{ variant: 'h1', align: 'center', style: { fontSize: '32px', fontWeight: 'bold', color: 'white', fontFamily: 'Arial' } }}
+                titleTypographyProps={{ variant: 'h1', align: 'center', style: { fontSize: '80px', fontWeight: 'bold', color: 'white', fontFamily: 'Arial' } }}
                 subheader={"Glad to have you here!"}
-                subheaderTypographyProps={{ style: { color: 'white', fontFamily: 'Arial', fontWeight: 'bold' } }}
+                subheaderTypographyProps={{ style: { color: 'white', fontFamily: 'Arial', fontWeight: 'bold', fontSize: '30px' } }}
             />
 
             <CardContent>
                 <Typography
-                    style={{ fontSize: '12px', color: 'white' }}
+                    style={{ fontSize: '20px', color: 'white' }}
                 >
                     Website is currently under development... 
                     <br />
@@ -41,7 +41,7 @@ const WelcomeCard = () => {
             </CardContent>
 
             {/* <CardContent style={{ justifyContent: 'center', alignItems: 'center' }}> */}
-            <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', transform: 'scale(1.2)' }}>
                 <Stack direction='row' spacing={2}>
                     <LinkedInButton />
                     <GitHubButton />
